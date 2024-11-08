@@ -1,0 +1,20 @@
+* {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(70, 50, 70);
+}
+
+body {
+  background-color: rgb(229, 190, 255);
+}
+
+button {
+  padding: 0.15rem 1.5rem;
+  color: white;
+  background-color: rgb(166, 33, 255);
+  border: 0rem;
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  opacity: 0.5;
+}

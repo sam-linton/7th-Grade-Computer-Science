@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="container">
+		<h1>Voter Eligibility</h1>
+		<label for="name-input">Name:</label>
+    <input id="name-input" type="text">
+    <label for="age-input">Age:</label>
+    <input id="age-input" type="text">
+    <label for="felon-checkbox">I am a felon</label>
+    <input id="felon-checkbox" type="checkbox">
+
+    <div class="button-bar">
+    <button onclick="analyzeInput()">Enter</button>
+    </div>
+    
+    <div id="output-div"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

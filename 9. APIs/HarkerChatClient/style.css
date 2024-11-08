@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  background-color: wheat;
+}
+
+.content {
+  max-width: 50%;
+  margin-inline: auto;
+}
+
+.content h1 {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+#messages-div {
+  padding: 1rem 1rem;
+  background-color: white;
+  width: 100%;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+
+#messages-div p {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+input[type=text] {
+  height: 2rem;
+  padding-left: 1rem;
+  width: 20rem;
+  font-size: 1.5rem
+}
+
+button {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.5rem 2rem;
+  margin-left: 2rem;
+  background-color: #926363;
+  color: white;
+  border-style: none;
+  border-radius: 1rem;
+}
+
+button:hover {
+  background-color:#9a9393;
+}

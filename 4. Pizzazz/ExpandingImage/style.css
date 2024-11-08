@@ -1,0 +1,22 @@
+.container {
+    overflow: clip;
+    border: solid 1px black;
+    width: 12rem;
+    height: 12rem;
+}
+
+img {
+    width: 100%;
+    /* Note: works without the next 2 */
+    height: 100%;
+    object-fit: cover;
+    /* Another way
+    position: relative;
+    top: -20%; */
+    transition: 0.5s;
+}
+
+img:hover {
+    /* transform: scale(1.2); */
+    scale: 1.2;
+}

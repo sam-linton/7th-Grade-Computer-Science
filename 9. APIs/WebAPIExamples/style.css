@@ -1,0 +1,35 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Lucida Sans';
+  background-color: #42c8f5;
+  padding:2rem 5rem;
+}
+
+#web-apis-div {
+  width: 50rem;
+}
+
+h1 {
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: antiquewhite; 
+}
+
+pre {
+  font-size: 1.0rem;
+  margin-bottom: 1rem;
+}
+
+

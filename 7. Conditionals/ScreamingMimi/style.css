@@ -1,0 +1,62 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('rollercoaster.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: Arial;
+  width: 70ch;
+  height: 50ch;
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.contents h1 {
+  color: hsl(181, 74%, 74%);
+  font-family: 'Lucida Handwriting';
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.contents label {
+  font-size: 1.5rem;
+}
+
+.contents input[type=number] {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+.contents button {
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  background-color: hsl(181, 74%, 74%);
+  margin-top: 2rem;
+  padding: .25rem 0rem;
+}
+
+.contents button:hover {
+    background-color: hsl(181, 74%, 50%);
+}
+
+.contents h2 {
+  margin-top: 1.5rem;
+  text-align: center;
+}

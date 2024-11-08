@@ -1,0 +1,38 @@
+.shape {
+    width: 4rem;
+    height: 4rem;
+    background-color: red;
+
+}
+
+.shape:hover {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+img {
+    width: 20rem;
+}
+
+img:active {
+    animation-name: blur;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+    100% {
+        rotate: 360deg;
+    }
+}
+
+@keyframes blur {
+    50% {
+        filter: blur(5px);
+    }
+
+    100% {
+        filter: none;
+    }
+}

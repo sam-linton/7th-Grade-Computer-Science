@@ -1,0 +1,23 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+.buttonBar {
+  padding: 1rem;
+}
+
+button {
+  color: white;
+  border: 0rem;
+  background-color: rgba(125, 100, 255);
+  width: 5rem;
+  height: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgba(175, 150, 255);
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-color: rebeccapurple
+}
+
+h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.button-bar {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  width: 50rem;
+  margin: auto;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  width: 10rem;
+  border-style: none;
+  border-radius: 2rem;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  color: white;
+  background-color: black
+}
+
+button:active {
+  background-color: darkgray;
+}

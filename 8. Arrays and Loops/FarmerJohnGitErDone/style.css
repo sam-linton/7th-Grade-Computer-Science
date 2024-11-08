@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contents {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.image {
+  width: 100%;
+  background-image: url('farmer.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.list {
+  width: 100%;
+  background-color: burlywood;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 2rem;
+  width: 100%;
+  margin: auto;
+}
+
+.heading {
+  background-color: #2a1c12;
+  width: 20rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.heading h1 {
+  font-family: Arial;
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+
+.heading h2 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #cab389;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  padding: 10rem 2rem 2rem 2rem;
+}
+
+.list-container {
+  font-size: 1.5rem;
+  padding: 1rem;
+  min-width: 20rem;
+  min-height: 10rem;
+}
+
+.list-container h3 {
+  color: #2a1c12;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#chore-list {
+  text-align: center;
+}
+
+/* .chore {
+  border: 1px red solid;
+} */
+
+.chore button {
+  background-color: burlywood;
+  border-style: none;
+  opacity: 0;
+  padding-left: 0.5rem;
+  transition: 0.5s;
+}
+
+.chore:hover button {
+  opacity: 1;
+}
+
+.chore .material-symbols-outlined {
+  transition: 0.5s;
+}
+
+.chore .material-symbols-outlined:hover {
+  background-color: white;
+}
+
+
+.add-area {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.add-area input[type=text] {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+
+.add-area button {
+  color: burlywood;
+  background-color: #2a1c12;
+  font-size: 1rem;
+  padding: 0.2rem 2rem;
+  text-transform: uppercase;
+}
+
+.add-area button:hover {
+  background-color: hsl(25, 40%, 40%); 
+}
+

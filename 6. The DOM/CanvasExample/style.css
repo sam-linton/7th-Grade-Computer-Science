@@ -1,0 +1,11 @@
+#myCanvas {
+    border: 1px solid black;
+    width: 10rem;
+    height: 15rem;
+    margin: 5rem;
+    transition: 6s;
+}
+
+#myCanvas:hover {
+    rotate: 360deg;
+}

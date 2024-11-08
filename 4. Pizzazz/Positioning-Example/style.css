@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 20rem;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container:hover img {
+  filter: blur(2px);
+}
+
+.image-text {
+  width: 100%;
+  font-size: 2rem;
+  position: absolute;
+  color: white;
+  bottom: 2rem;
+}
+
+.image-text p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.image-text button {
+  opacity: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.5rem 3rem;
+  background-color: lightgray;
+  color: #4d2b00;
+  border-radius: 2rem;
+  border-style: none;
+  transition: 0.5s;
+}
+
+.container:hover button {
+  opacity: 1.0;
+}
+
+
+

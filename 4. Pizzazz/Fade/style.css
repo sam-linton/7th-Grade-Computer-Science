@@ -1,0 +1,44 @@
+.pic1 {
+    position: absolute;
+    opacity: 0;
+    width: 20rem;
+    height: 20rem;
+    background-image: url('pic1.jpg');
+    background-size: cover;
+    background-position: center;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.pic2 {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    width: 20rem;
+    height: 20rem;
+    background-image: url('pic2.jpg');
+    background-size: cover;
+    background-position: center;
+    animation-name: change;
+    animation-delay: 5s;
+    animation-duration: 5s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+
+@keyframes change {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,24 @@
+.card {
+    width: 10rem;
+    height: 10rem;
+    border: 2px gray solid;
+    overflow: clip;
+}
+
+.card-wide {
+    width: 20rem;
+    height: 10rem;
+    overflow: clip;
+}
+
+img {
+    /* Make the image fill card */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+img:hover {
+    scale: 1.1;
+}

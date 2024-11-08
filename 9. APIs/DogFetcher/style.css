@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+button {
+  color: white;
+  font-family: Arial;
+  font-size: 1.5rem;
+  background-color: dodgerblue;
+  width: 10rem;
+  height: 2.5rem;
+  border-style: none;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+  margin: 2rem 0rem;
+  text-align: center;
+  float: right;
+}
+
+button:hover {
+  background-color: rgb(100, 200, 254);
+}
+
+button:active {
+  background-color: rgb(80, 160, 200);
+}
+
+.image-area {
+  width: 50%;
+  margin: auto;
+}

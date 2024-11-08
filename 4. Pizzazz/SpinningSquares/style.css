@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 95%;
+  background-color: rebeccapurple;
+  border: 2px solid white;
+  animation-name: spin;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+.top {
+  width: 10rem;
+  height: 10rem;
+}
+
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+
+  50% {
+    rotate: 360deg;
+  }
+
+  100% {
+    rotate: 0;
+  }
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: borderbox;
+}
+
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: grey;
+}
+
+h1 {
+  font-weight: 100;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+#pokemon-list {
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.center {
+  text-align: center;
+  background-color: skyblue;
+  width: 30rem;
+  margin: auto;
+}

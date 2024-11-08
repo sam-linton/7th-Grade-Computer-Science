@@ -1,0 +1,18 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+.gallery {
+  padding: 1rem;
+  justify-content: space-around;
+  display: flex;
+  background-color: cornflowerblue;
+}
+
+.card {
+  background-color: rgb(190, 190, 243);
+  height: 10rem;
+  width: 10rem;
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.image-panel {
+  background-image: url('cat.jpg');
+  background-size: cover;
+  background-position: cener;
+  height: 100%;
+  width: 30%;
+}
+
+.fact-panel {
+  background-color: #d9c195;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  width: 80%;
+  padding: 2rem;
+}
+
+#cat-fact-div {
+  font-size: 1.5rem;
+}
+
+.inner button {
+  color: white;
+  font-size: 1rem;
+  background-color: black;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+.inner button:hover {
+  background-color: white;
+  color: black;
+}
+
