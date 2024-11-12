@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    /* background-color: rgb(255, 162, 255); */
+}
+
+.header {
+    text-align: center;
+    color: white;
+    background-color: rgb(57, 57, 255);
+    padding: 2rem 0rem;
+}
+
+.content {
+    /* background-color: salmon; */
+    margin: 2rem 10%;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.content p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem
+}
+
+.section {
+    /* background-color: aqua; */
+}
+
+.section ul {
+    margin-left: 1rem;
+}
+
+.section h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.section a {
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
