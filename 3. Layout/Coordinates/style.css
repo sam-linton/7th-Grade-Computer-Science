@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: 2rem 20%;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+}
+
+.ad {
+    text-align: center;
+    margin: auto;
+    padding: 4rem;
+    color: black;
+    background-color: rgb(255, 37, 37);
+    border: solid gray 0.1rem;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    /* inset: 45% 10% 45%; */
+}
+
+.ad h1 {
+    font-family: fantasy;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 1rem;
+}
+
+.ad p {
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
