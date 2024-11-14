@@ -31,8 +31,17 @@ body {
     margin-bottom: 1rem
 }
 
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Section */
 .section {
-    /* background-color: aqua; */
+    background-color: rgb(199, 199, 199);
+    border: gray 1px solid;
+    padding: 1rem;
 }
 
 .section ul {
@@ -41,7 +50,6 @@ body {
 
 .section h3 {
     font-size: 1.5rem;
-    margin-top: 2rem;
     margin-bottom: 0.25rem;
 }
 
@@ -52,4 +60,26 @@ body {
 
 .section a:hover {
     text-decoration: underline;
+}
+
+/* Accordian */
+.accordion {
+    font-family: Arial;
+    margin-bottom: 1rem;
+}
+
+.accordion-header {
+    color: white;
+    background-color: rgb(63, 63, 63);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.accordion-header:hover {
+    background-color: rgb(52, 52, 52);
+}
+
+.accordion-panel {
+    background-color: white;
+    padding: 0.5rem;
 }
