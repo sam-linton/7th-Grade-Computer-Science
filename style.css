@@ -81,15 +81,26 @@ body {
 
 .accordion-panel {
     background-color: white;
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .accordion-panel pre {
     background-color: lavender;
-    padding: 1rem 0rem;
+    padding: 0rem 0rem;
+    margin-bottom: 1rem;
 }
 
-.accordian-panel em {
+.accordion-panel p {
+    padding: 0;
+    margin-top: 1rem;
+}
+
+em {
     font-style: normal;
     font-weight: 900;
+}
+
+.todo {
+    font-weight: 900;
+    color: red;
 }
