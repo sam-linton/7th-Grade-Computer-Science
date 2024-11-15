@@ -62,7 +62,7 @@ body {
     text-decoration: underline;
 }
 
-/* Accordian */
+/* Accordion */
 .accordion {
     font-family: Arial;
     margin-bottom: 1rem;
@@ -82,4 +82,14 @@ body {
 .accordion-panel {
     background-color: white;
     padding: 0.5rem;
+}
+
+.accordion-panel pre {
+    background-color: lavender;
+    padding: 1rem 0rem;
+}
+
+.accordian-panel em {
+    font-style: normal;
+    font-weight: 900;
 }
