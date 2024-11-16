@@ -19,19 +19,19 @@
         <!-- First HTML -->
         <div class="section">
           <h3>First HTML</h3>
-          <p>Learn the basics of creating an HTML page.</p>
+          <p>Learn the basics of creating a Hyptertext Markup Language (HTML) page.</p>
 
+          <!-- Notes -->
           <div class="accordion">
             <div class="accordion-header">
                 <h4>Notes</h4>
             </div>
-            
             <div class="accordion-panel">
               <p>
               Web programs consist of:
                 <ul>
                   <li>
-                    <em>HTML</em> - markup language which has the content and structure
+                    <em>HTML</em> - markup language which defines the content and structure
                   </li>
 
                   <li>
@@ -42,39 +42,118 @@
                   </li>
                 </ul> 
               </p>
+              <div class="space"></div>
               <p>
-                HTML documents are made of <em>elements</em>, each with an opening and closing <em>tag</em>. For example, here is a paragraph element:
+                HTML documents are made of <em>elements</em>, each with an opening and closing <em>tag</em>. For example, here is a paragraph element: 
+                <code class="inline-code"> &lt;p&gt; This is a paragraph &lt;/p&gt; </code>
               </p>
-              <pre>
-<code>
-  &lt;p&gt; This is a paragraph &lt;p&gt;
-</code>
-              </pre>
+
+              <p>
+                HTML documents always have one element inside them: the <em>html</em> element. The html element contains two other elements: the <em>head</em> and the <em>body</em>. The head element contains information about the document, such as the title. The body element contains the content of the document.
+                Here is the basic structure of an HTML document:
+                <pre>
+                  <code>
+                    &lt;html&gt;
+                      &lt;head&gt;
+                        &lt;title&gt; My First Web Page &lt;/title&gt;
+                      &lt;/head&gt;
+                      &lt;body&gt;
+                        &lt;p&gt; This is a paragraph &lt;/p&gt;
+                      &lt;/body&gt;
+                    &lt;/html&gt;
+                  </code>
+                </pre>  
+              </p>
+              <div class="space"></div>
               
               <p>HTML elements may have <em>attributes</em> that define properties. Attributes must be assigned in the opening tag of an element.</p>
    
               <p>HTML elements may have <em>contents</em>. Contents appear between the opening and closing tags of elements.</p>
+              <div class="space"></div>
 
-              <p>Here examples of some common tags:</p>
-              <div class="todo">TODO</div>
+              <p>Here are examples of some common tags:</p>
+              <!-- HTML Elment Table -->
+              <table>
+                <tr>
+                  <th>Tag</th>
+                  <th>Description</th>
+                  <th>Example</th>
+                  <th>Notes</th>
+                </tr>
+                <tr>
+                  <td>h1, h2, h3, etc</td>
+                  <td>headings</td>
+                  <td> <code>&lt;h1&gt; This is a header &lt;/h1&gt;</code></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>p</td>
+                  <td>paragraph</td>
+                  <td> <code>&lt;p&gt; This is a paragraph &lt;/p&gt;</code></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>img</td>
+                  <td>image</td>
+                  <td> <code>&lt;img src="hamster.jpg" alt="Image of a hamster"&gt; </code></td>
+                  <td>Note there is no close tag required!</td>
+                </tr>
+                <tr>
+                  <td>a</td>
+                  <td>anchor (link)</td>
+                  <td> <code>&lt;h1&gt; This is a header &lt;/h1&gt;</code></td>
+                  <td>An image (or other elements) can be used instead of text inside the anchor tag</td>
+                </tr>
+              </table>
             </div>
           </div>
 
+          <!-- Samples -->
           <div class="accordion">
             <div class="accordion-header">
                 <h4>Samples</h4>
             </div>
             <div class="accordion-panel">
-                samples
+              <ul>
+                <li>
+                  <a href="./1. Hello World/index.html">Hello World</a>
+                </li>
+              </ul>
             </div>
           </div>
 
+          <!-- Project -->
           <div class="accordion">
             <div class="accordion-header">
                 <h4>Project</h4>
             </div>
             <div class="accordion-panel">
-                project description
+              <h2>Basic</h2>
+              <ol>
+                <li>Download Visual Studio Code</li>
+                <li>Create a folder for this project, and give it the name “FirstHTML” </li>
+                <li>Add a file inside the folder called "index.html"</li>
+                <li>Try experimenting with different tags and viewing the results: 
+                <li>Pick out a theme of your own and make a website based on it. For example:
+                  <ul>
+                    <li>My Amazing Life.</li>
+                    <li>Marmots Make Terrible Pets. But They Are Delicious!</li>
+                    <li>Homage to Tater Swift.</li>
+                  </ul>
+                </li>
+              </ol>
+              <div class="space"></div>
+              <h2>Extra</h2>
+              <p>Explore additional elements. You can find references online with a simple google search. Include "html" in the search field. Here are a few interesting examples:
+                <ul>
+                  <li>button</li>
+                  <li>input (Note the great variety of input elements available)</li>
+                  <li>list</li>
+                  <li>table</li>
+                </ul>
+                Note that some elements such as buttons and inputs require JavaScript to be fully functional.
+              </p>
+            
             </div>
           </div>
 
@@ -83,7 +162,7 @@
         <!-- Styling -->
         <div class="section">
           <h3>Styling</h3>
-          <p>Learn how to add styling to an HTML page using CSS.</p>
+          <p>Learn how to add styling to an HTML page using Cascading Stylesheets (CSS).</p>
 
           <!-- Notes -->
           <div class="accordion">
@@ -91,7 +170,86 @@
                 <h4>Notes</h4>
             </div>
             <div class="accordion-panel">
-                A lot of notes here
+              <p>
+                <em>Cascading Style Sheets (CSS)</em> allow programmers to control the style of web programs, overriding the browser default behavior.
+              </p>
+              <div class="space"></div>
+
+              <p>
+                Add CSS styles with a <em>selector</em> (what to style) and a <em>ruleset</em> (how to style it).
+              </p>
+              <pre>
+    <code>
+      p {
+        color: red;
+      }
+    </code>
+              </pre>
+              <div class="space"></div>
+
+              <p>
+                Selectors can select elements, ids, or classes:
+              </p>
+              <table>
+                <tr>
+                  <th>Selector Type</th>
+                  <th>HTML example</th>
+                  <th>CSS Selector</th>
+                </tr>
+                <tr>
+                  <td>Element</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Class</td>
+                  <td><code>&lt;p class=”important”&gt;&lt;/p&gt;</code></td>
+                  <td><code>.important</code></td>
+                </tr>
+                <tr>
+                  <td>Id</td>
+                  <td><code>&lt;p id=”first”&gt;&lt;/p&gt;</code></td>
+                  <td><code>#first</code></td>
+                </tr>
+              </table>
+              <div class="space"></div>
+             
+              
+              <p></p>
+              Best practice to add CSS is to use a separate file (such as style.css) and link the html to it in the header:
+              <pre>
+  <code>
+    &lt;link href=”style.css” rel=”stylesheet type = “text/css”&gt;
+  </code>
+              </pre>
+              <div class="space"></div>
+              
+              <p>The <em>Box Model</em> determines the spacing around elements:</p>
+              <img src="./images/box-model.webp" alt="">
+              <div class="space"></div>
+
+              <p>There are many units for spacing in CSS. Here are three of the most common:
+                <ul>
+                  <li>pixels -  based on the size of a monitor’s pixel size</li>
+                  <li>rems - relative to the size of an “m”</li>
+                  <li>percentage - % of the size of whatever contains the element</li>
+                </ul>
+                I recommend that you avoid using pixels!
+              </p>
+              <div class="space"></div>
+
+              
+              <p>Hint: to “turn off” the browser’s default settings, consider having this as the first thing in your CSS file:
+                <pre>
+  <code>
+    *  {
+      margin: 0rem;
+      padding: 0rem;
+      box-sizing: border-box;
+    }
+  </code>
+                </pre>
+              
             </div>
           </div>
 
@@ -115,11 +273,30 @@
                 <h4>Project</h4>
             </div>
             <div class="accordion-panel">
-                project description
+              <h2>Basic</h2>
+              <ol>
+                <li>
+                  Start with an existing project, or start a new project. Add a stylesheet to a project, and make sure to link to it in your html page's head. 
+                </li>
+                <li>
+                  Try experimenting with different styles and view the results.
+                  Examples of things to try:
+                  <ul>
+                    <li>Try changing the body's background color</li>
+                    <li>Change the font familes, sizes, and colors</li>
+                    <li>Size images by using the CSS stylesheet, rather than an attribute</li>
+                  </ul>
+                </li>
+              </ol>
+              <div class="space"></div>
+
+              <h2>Advanced</h2>
+              <p>
+                How can you have one element on top of another? For example, text or buttons on top of an image? HINT: look up relative and absolute positioning. Bigger hint: look here.
+              </p>
+              
             </div>
           </div>
-
-
         </div>
 
         <!-- Layout -->
@@ -170,6 +347,7 @@
         <!-- Pizzaz -->
         <div class="section">
           <h3>Pizzaz</h3>
+          <p>Learn how to add some pizzaz to your website.</p>
           <div class="accordion">
             <div class="accordion-header">
                 <h4>Notes</h4>
@@ -207,6 +385,7 @@
         <!-- First JavaScript -->
         <div class="section">
           <h3>First JavaScript</h3>
+          <p>Start using JavaScript to add interactivity to your web program.</p>
           <div class="accordion">
             <div class="accordion-header">
                 <h4>Notes</h4>
@@ -252,6 +431,7 @@
         <!-- The DOM -->
         <div class="section">
           <h3>The DOM</h3>
+          <p>Learn how to use the Document Object Model (DOM) to manipulate elements and styles on your website.</p>
           <div class="accordion">
             <div class="accordion-header">
                 <h4>Notes</h4>
@@ -284,6 +464,7 @@
         <!-- Conditionals -->
         <div class="section">
           <h3>Conditionals</h3>
+          <p>Learn how to respond to different conditions in your code.</p>
           <div class="accordion">
             <div class="accordion-header">
                 <h4>Notes</h4>
@@ -315,6 +496,7 @@
         <!-- Arrays and Loops -->
         <div class="section">
           <h3>Arrays and Loops</h3>
+          <p>Learn how to store groups of things in arrays and use loops to manipulate them.</p>
           <div class="accordion">
             <div class="accordion-header">
                 <h4>Notes</h4>
@@ -346,6 +528,7 @@
         <!-- Web APIs -->
         <div class="section">
           <h3>Web APIs</h3>
+          <p>Learn how to interact with services on the internet with Web Application Programming Interfaces ( Web APIs).</p>
           <div class="accordion">
             <div class="accordion-header">
                 <h4>Notes</h4>

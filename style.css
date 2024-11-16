@@ -34,9 +34,10 @@ body {
 .sections {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 4rem;
 }
 
+/* ------------------------------------------------------------------ */
 /* Section */
 .section {
     background-color: rgb(199, 199, 199);
@@ -44,8 +45,13 @@ body {
     padding: 1rem;
 }
 
-.section ul {
+.section ul, ol {
     margin-left: 1rem;
+}
+
+.section li {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .section h3 {
@@ -62,6 +68,7 @@ body {
     text-decoration: underline;
 }
 
+/* ------------------------------------------------------------------ */
 /* Accordion */
 .accordion {
     font-family: Arial;
@@ -81,18 +88,55 @@ body {
 
 .accordion-panel {
     background-color: white;
-    padding: 0.5rem 0.5rem;
+    padding: 2rem 2rem 5rem 2rem;
+}
+
+.space {
+    height: 4rem;
+}
+
+.accordion-panel code {
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.accordion-panel .inline-code {
+    background-color: lavender;
 }
 
 .accordion-panel pre {
     background-color: lavender;
-    padding: 0rem 0rem;
-    margin-bottom: 1rem;
+    padding: 0;
+    border: solid gray 1px;
 }
 
 .accordion-panel p {
     padding: 0;
-    margin-top: 1rem;
+    margin: 0;
+}
+
+.accordion-panel table {
+    border-collapse: collapse;
+}
+
+.accordion-panel th {
+    color: white;
+    background-color: rgb(63, 63, 63);
+    text-align: left;
+}
+
+.accordion-panel th, td {
+    border: 1px solid rgb(68, 68, 68);
+    padding: 0.5rem;
+    min-width: 10rem;
+}
+
+.accordion-panel tr:nth-child(even) {
+    background-color: rgb(199, 199, 199);
+}
+
+.accordion-panel img {
+    max-width: 50%;
 }
 
 em {
