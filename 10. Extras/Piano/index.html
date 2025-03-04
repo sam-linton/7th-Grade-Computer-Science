@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="http://unpkg.com/tone"></script>
+    <script src="script.js" defer></script>
+</head>
+<body onkeydown="keyDown(event)" onkeyup="keyUp(event)">
+    <button onclick="startRecording()">Record</button>
+    <button onclick="stopRecording()">Stop</button>
+    <button onclick="playRecording()">Play Recording</button>
+    <button onclick="play()">Press</button>
+    <div id="keyboard"></div>
+</body>
+</html>
