@@ -1,0 +1,22 @@
+img {
+    width: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* display: block; */
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+}
+
+figure {
+    font-weight: 900;
+    img {
+        margin-bottom: 0;
+    }
+}
