@@ -37,20 +37,20 @@
   width: 20rem;
   text-align: center;
   padding: 2rem;
-}
 
-.heading h1 {
-  font-family: Arial;
-  font-size: 3rem;
-  font-weight: 900;
-  color: white;
-}
+  h1 {
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+  }
 
-.heading h2 {
-  font-family: 'Brush Script MT', cursive;
-  font-size: 2.5rem;
-  font-weight: 100;
-  color: #cab389;
+  h2 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: #cab389;
+  }
 }
 
 .list {
@@ -67,22 +67,20 @@
   padding: 1rem;
   min-width: 20rem;
   min-height: 10rem;
-}
 
-.list-container h3 {
-  color: #2a1c12;
-  font-size: 1.5rem;
-  text-align: center;
-  margin-bottom: 0.5rem;
+  h3 {
+    color: #2a1c12;
+    font-size: 2.5rem;
+    font-family: 'Brush Script MT', cursive;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 0.25rem;
+  }
 }
 
 #chore-list {
-  text-align: center;
+  text-align: left;
 }
-
-/* .chore {
-  border: 1px red solid;
-} */
 
 .chore button {
   background-color: burlywood;
@@ -104,28 +102,28 @@
   background-color: white;
 }
 
-
 .add-area {
   margin-top: 2rem;
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
-}
 
-.add-area input[type=text] {
-  font-size: 1.5rem;
-  padding-left: 1rem;
-}
+  input[type=text] {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
 
-.add-area button {
-  color: burlywood;
-  background-color: #2a1c12;
-  font-size: 1rem;
-  padding: 0.2rem 2rem;
-  text-transform: uppercase;
-}
+  button {
+    border-style: none;
+    color: burlywood;
+    background-color: #2a1c12;
+    font-size: 1rem;
+    padding: 0.2rem 2rem;
+    text-transform: uppercase;
+    transition: 0.3s;
 
-.add-area button:hover {
-  background-color: hsl(25, 40%, 40%); 
+    &:hover {
+      background-color: hsl(25, 40%, 40%);
+    }
+  }
 }
-
